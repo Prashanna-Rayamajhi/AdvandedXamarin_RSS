@@ -1,0 +1,16 @@
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\bin\Debug\netstandard2.0\Finance.deps.json
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\bin\Debug\netstandard2.0\Finance.dll
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\bin\Debug\netstandard2.0\Finance.pdb
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\obj\Debug\netstandard2.0\Finance.csproj.AssemblyReference.cache
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\obj\Debug\netstandard2.0\Finance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\obj\Debug\netstandard2.0\View\PostPage.xaml.g.cs
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\obj\Debug\netstandard2.0\Finance.AssemblyInfoInputs.cache
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\obj\Debug\netstandard2.0\Finance.AssemblyInfo.cs
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\obj\Debug\netstandard2.0\Finance.csproj.CoreCompileInputs.cache
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\obj\Debug\netstandard2.0\Finance.dll
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\obj\Debug\netstandard2.0\refint\Finance.dll
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\obj\Debug\netstandard2.0\Finance.pdb
+C:\Temp\XamarinCourse\Advanced\Finance\Finance\Finance\obj\Debug\netstandard2.0\ref\Finance.dll
