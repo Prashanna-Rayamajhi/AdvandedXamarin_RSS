@@ -2,6 +2,45 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Microsoft.AppCenter/4.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Analytics/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "4.5.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "4.5.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -164,6 +203,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "4.5.1",
+          "Microsoft.AppCenter.Crashes": "4.5.1",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -177,6 +218,45 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Microsoft.AppCenter/4.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Analytics/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "4.5.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "4.5.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -339,6 +419,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "4.5.1",
+          "Microsoft.AppCenter.Crashes": "4.5.1",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -352,6 +434,45 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Microsoft.AppCenter/4.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Analytics/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "4.5.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "4.5.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -514,6 +635,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "4.5.1",
+          "Microsoft.AppCenter.Crashes": "4.5.1",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -527,6 +650,45 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Microsoft.AppCenter/4.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Analytics/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "4.5.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "4.5.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -689,6 +851,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "4.5.1",
+          "Microsoft.AppCenter.Crashes": "4.5.1",
           "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -703,6 +867,108 @@
     }
   },
   "libraries": {
+    "Microsoft.AppCenter/4.5.1": {
+      "sha512": "ISpYsz9log3yba/7vdgI3s9UdHjxlW22j2lBlHLPpjjYYzU44eG5VLblIXqhOdSvAM5KT0fYdEOpE7LnX3t22g==",
+      "type": "package",
+      "path": "microsoft.appcenter/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Android.Bindings.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.xml",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.MacOS.Bindings.dll",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.dll",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.xml",
+        "lib/net461/Microsoft.AppCenter.dll",
+        "lib/net461/Microsoft.AppCenter.xml",
+        "lib/net472/Microsoft.AppCenter.dll",
+        "lib/net472/Microsoft.AppCenter.xml",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.dll",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.xml",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.dll",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.xml",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.dll",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.xml",
+        "lib/netstandard1.0/Microsoft.AppCenter.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.xml",
+        "lib/uap10.0/Microsoft.AppCenter.dll",
+        "lib/uap10.0/Microsoft.AppCenter.xml",
+        "microsoft.appcenter.4.5.1.nupkg.sha512",
+        "microsoft.appcenter.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Analytics/4.5.1": {
+      "sha512": "N/qq1N99q8vFjvWDrh/9lJXIE5Hwo7GW5I5LMKephHvxJMNDxWReSFDpUxXLI8OPLO9dDrPhVQBHhPxA0dtafg==",
+      "type": "package",
+      "path": "microsoft.appcenter.analytics/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Analytics.Android.Bindings.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Analytics.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Analytics.xml",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.Analytics.MacOS.Bindings.dll",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.Analytics.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.xml",
+        "lib/net461/Microsoft.AppCenter.Analytics.dll",
+        "lib/net461/Microsoft.AppCenter.Analytics.xml",
+        "lib/net472/Microsoft.AppCenter.Analytics.dll",
+        "lib/net472/Microsoft.AppCenter.Analytics.xml",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/uap10.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/uap10.0/Microsoft.AppCenter.Analytics.xml",
+        "microsoft.appcenter.analytics.4.5.1.nupkg.sha512",
+        "microsoft.appcenter.analytics.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Crashes/4.5.1": {
+      "sha512": "OoxCR5gBrOYms1g9S0eHRnPIDfUftew9wAPZ/UHCI6o61rVZ9eVmCQZlhImZ42e/zsWlE97K4jUYXjnJ80uuig==",
+      "type": "package",
+      "path": "microsoft.appcenter.crashes/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Crashes.Android.Bindings.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Crashes.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Crashes.xml",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.Crashes.MacOS.Bindings.dll",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.Crashes.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.xml",
+        "lib/net461/Microsoft.AppCenter.Crashes.dll",
+        "lib/net461/Microsoft.AppCenter.Crashes.xml",
+        "lib/net472/Microsoft.AppCenter.Crashes.dll",
+        "lib/net472/Microsoft.AppCenter.Crashes.xml",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/uap10.0/Microsoft.AppCenter.Crashes.xml",
+        "microsoft.appcenter.crashes.4.5.1.nupkg.sha512",
+        "microsoft.appcenter.crashes.nuspec"
+      ]
+    },
     "Newtonsoft.Json/13.0.1": {
       "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "type": "package",
@@ -1044,6 +1310,8 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Finance >= 1.0.0",
+      "Microsoft.AppCenter.Analytics >= 4.5.1",
+      "Microsoft.AppCenter.Crashes >= 4.5.1",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
     ]
@@ -1093,6 +1361,14 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": {
+            "target": "Package",
+            "version": "[4.5.1, )"
+          },
+          "Microsoft.AppCenter.Crashes": {
+            "target": "Package",
+            "version": "[4.5.1, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"

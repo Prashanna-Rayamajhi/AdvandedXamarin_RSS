@@ -2,6 +2,43 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Microsoft.AppCenter/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "SQLitePCLRaw.bundle_green": "2.0.2"
+        },
+        "compile": {
+          "lib/netstandard1.0/Microsoft.AppCenter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Analytics/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -35,6 +72,126 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "SQLitePCLRaw.bundle_green/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.2",
+          "SQLitePCLRaw.lib.e_sqlite3": "2.0.2",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/alpine-x64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/linux-arm/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-armel/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-armel"
+          },
+          "runtimes/linux-musl-x64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/osx-x64/native/libe_sqlite3.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-arm"
+          },
+          "runtimes/win-arm64/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -42,6 +199,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
       "Xamarin.Essentials/1.7.0": {
@@ -76,6 +242,108 @@
     }
   },
   "libraries": {
+    "Microsoft.AppCenter/4.5.1": {
+      "sha512": "ISpYsz9log3yba/7vdgI3s9UdHjxlW22j2lBlHLPpjjYYzU44eG5VLblIXqhOdSvAM5KT0fYdEOpE7LnX3t22g==",
+      "type": "package",
+      "path": "microsoft.appcenter/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Android.Bindings.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.xml",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.MacOS.Bindings.dll",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.dll",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.xml",
+        "lib/net461/Microsoft.AppCenter.dll",
+        "lib/net461/Microsoft.AppCenter.xml",
+        "lib/net472/Microsoft.AppCenter.dll",
+        "lib/net472/Microsoft.AppCenter.xml",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.dll",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.xml",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.dll",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.xml",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.dll",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.xml",
+        "lib/netstandard1.0/Microsoft.AppCenter.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.xml",
+        "lib/uap10.0/Microsoft.AppCenter.dll",
+        "lib/uap10.0/Microsoft.AppCenter.xml",
+        "microsoft.appcenter.4.5.1.nupkg.sha512",
+        "microsoft.appcenter.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Analytics/4.5.1": {
+      "sha512": "N/qq1N99q8vFjvWDrh/9lJXIE5Hwo7GW5I5LMKephHvxJMNDxWReSFDpUxXLI8OPLO9dDrPhVQBHhPxA0dtafg==",
+      "type": "package",
+      "path": "microsoft.appcenter.analytics/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Analytics.Android.Bindings.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Analytics.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Analytics.xml",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.Analytics.MacOS.Bindings.dll",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.Analytics.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.xml",
+        "lib/net461/Microsoft.AppCenter.Analytics.dll",
+        "lib/net461/Microsoft.AppCenter.Analytics.xml",
+        "lib/net472/Microsoft.AppCenter.Analytics.dll",
+        "lib/net472/Microsoft.AppCenter.Analytics.xml",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/uap10.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/uap10.0/Microsoft.AppCenter.Analytics.xml",
+        "microsoft.appcenter.analytics.4.5.1.nupkg.sha512",
+        "microsoft.appcenter.analytics.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Crashes/4.5.1": {
+      "sha512": "OoxCR5gBrOYms1g9S0eHRnPIDfUftew9wAPZ/UHCI6o61rVZ9eVmCQZlhImZ42e/zsWlE97K4jUYXjnJ80uuig==",
+      "type": "package",
+      "path": "microsoft.appcenter.crashes/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Crashes.Android.Bindings.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Crashes.dll",
+        "lib/MonoAndroid50/Microsoft.AppCenter.Crashes.xml",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.Crashes.MacOS.Bindings.dll",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.Mac/Microsoft.AppCenter.Crashes.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.xml",
+        "lib/net461/Microsoft.AppCenter.Crashes.dll",
+        "lib/net461/Microsoft.AppCenter.Crashes.xml",
+        "lib/net472/Microsoft.AppCenter.Crashes.dll",
+        "lib/net472/Microsoft.AppCenter.Crashes.xml",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/netcoreapp3.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/uap10.0/Microsoft.AppCenter.Crashes.xml",
+        "microsoft.appcenter.crashes.4.5.1.nupkg.sha512",
+        "microsoft.appcenter.crashes.nuspec"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -247,6 +515,125 @@
         "packageIcon.png"
       ]
     },
+    "SQLitePCLRaw.bundle_green/2.0.2": {
+      "sha512": "W8cUJhwC5b0Rp34ZI2q243totrvILMz2MQyvg1toYXaDmiyvx3gFXVc2X4yiPPha0YexicuksVLpWAekvNC1VQ==",
+      "type": "package",
+      "path": "sqlitepclraw.bundle_green/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.nativelibrary.dll",
+        "lib/net461/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net461/SQLitePCLRaw.nativelibrary.dll",
+        "lib/netcoreapp3.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netcoreapp3.0/SQLitePCLRaw.nativelibrary.dll",
+        "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
+        "sqlitepclraw.bundle_green.2.0.2.nupkg.sha512",
+        "sqlitepclraw.bundle_green.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.core/2.0.2": {
+      "sha512": "TFSBX426OelS1tkaVC254NVVlrJIe9YLhWPkEvuqJj2104QpmDmEYOhfdfDJD1E/2SmqDhoRw1ek5cQHj8olcQ==",
+      "type": "package",
+      "path": "sqlitepclraw.core/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SQLitePCLRaw.core.dll",
+        "sqlitepclraw.core.2.0.2.nupkg.sha512",
+        "sqlitepclraw.core.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.lib.e_sqlite3/2.0.2": {
+      "sha512": "S+Tsqe/M7wsc+9HeediI6UHtBKf2X586aRwhi1aBVLGe0WxkAo52O9ZxwEy/v8XMLefcrEMupd2e9CDlIT6QCw==",
+      "type": "package",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net461/SQLitePCLRaw.lib.e_sqlite3.targets",
+        "lib/net461/_._",
+        "lib/netstandard2.0/_._",
+        "runtimes/alpine-x64/native/libe_sqlite3.so",
+        "runtimes/linux-arm/native/libe_sqlite3.so",
+        "runtimes/linux-arm64/native/libe_sqlite3.so",
+        "runtimes/linux-armel/native/libe_sqlite3.so",
+        "runtimes/linux-musl-x64/native/libe_sqlite3.so",
+        "runtimes/linux-x64/native/libe_sqlite3.so",
+        "runtimes/linux-x86/native/libe_sqlite3.so",
+        "runtimes/osx-x64/native/libe_sqlite3.dylib",
+        "runtimes/win-arm/native/e_sqlite3.dll",
+        "runtimes/win-arm64/native/e_sqlite3.dll",
+        "runtimes/win-x64/native/e_sqlite3.dll",
+        "runtimes/win-x86/native/e_sqlite3.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-arm64/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll",
+        "sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.provider.e_sqlite3/2.0.2": {
+      "sha512": "i85nt+PE5q+85jDDKos+32MyCyPIBjW09DHhTJm8Tr2lXjRza+zBB3/1ovBbHgZP8o/fXzqNwB8bZsRzEtzk4Q==",
+      "type": "package",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "sqlitepclraw.provider.e_sqlite3.2.0.2.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.nuspec"
+      ]
+    },
+    "System.Buffers/4.4.0": {
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "type": "package",
+      "path": "system.buffers/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "system.buffers.4.4.0.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Memory/4.5.3": {
+      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "type": "package",
+      "path": "system.memory/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -290,6 +677,31 @@
         "ref/xamarinwatchos10/_._",
         "system.numerics.vectors.4.5.0.nupkg.sha512",
         "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -555,6 +967,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Microsoft.AppCenter.Analytics >= 4.5.1",
+      "Microsoft.AppCenter.Crashes >= 4.5.1",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 13.0.1",
       "Xamarin.Essentials >= 1.7.0",
@@ -608,6 +1022,14 @@
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": {
+            "target": "Package",
+            "version": "[4.5.1, )"
+          },
+          "Microsoft.AppCenter.Crashes": {
+            "target": "Package",
+            "version": "[4.5.1, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
