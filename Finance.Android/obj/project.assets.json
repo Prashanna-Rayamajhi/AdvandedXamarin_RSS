@@ -3216,11 +3216,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\XamarinCourse\\Advanced\\Finance\\Finance\\Finance.Android\\Finance.Android.csproj",
+      "projectUniqueName": "C:\\Repository\\AdvandedXamarin_RSS\\Finance.Android\\Finance.Android.csproj",
       "projectName": "Finance.Android",
-      "projectPath": "C:\\Temp\\XamarinCourse\\Advanced\\Finance\\Finance\\Finance.Android\\Finance.Android.csproj",
+      "projectPath": "C:\\Repository\\AdvandedXamarin_RSS\\Finance.Android\\Finance.Android.csproj",
       "packagesPath": "C:\\Users\\prash\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\XamarinCourse\\Advanced\\Finance\\Finance\\Finance.Android\\obj\\",
+      "outputPath": "C:\\Repository\\AdvandedXamarin_RSS\\Finance.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3243,8 +3243,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Temp\\XamarinCourse\\Advanced\\Finance\\Finance\\Finance\\Finance.csproj": {
-              "projectPath": "C:\\Temp\\XamarinCourse\\Advanced\\Finance\\Finance\\Finance\\Finance.csproj"
+            "C:\\Repository\\AdvandedXamarin_RSS\\Finance\\Finance.csproj": {
+              "projectPath": "C:\\Repository\\AdvandedXamarin_RSS\\Finance\\Finance.csproj"
             }
           }
         }

@@ -1,0 +1,16 @@
+C:\Repository\AdvandedXamarin_RSS\Finance\bin\Release\netstandard2.0\Finance.deps.json
+C:\Repository\AdvandedXamarin_RSS\Finance\bin\Release\netstandard2.0\Finance.dll
+C:\Repository\AdvandedXamarin_RSS\Finance\bin\Release\netstandard2.0\Finance.pdb
+C:\Repository\AdvandedXamarin_RSS\Finance\obj\Release\netstandard2.0\Finance.csproj.AssemblyReference.cache
+C:\Repository\AdvandedXamarin_RSS\Finance\obj\Release\netstandard2.0\Finance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repository\AdvandedXamarin_RSS\Finance\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Repository\AdvandedXamarin_RSS\Finance\obj\Release\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Repository\AdvandedXamarin_RSS\Finance\obj\Release\netstandard2.0\View\PostPage.xaml.g.cs
+C:\Repository\AdvandedXamarin_RSS\Finance\obj\Release\netstandard2.0\Finance.AssemblyInfoInputs.cache
+C:\Repository\AdvandedXamarin_RSS\Finance\obj\Release\netstandard2.0\Finance.AssemblyInfo.cs
+C:\Repository\AdvandedXamarin_RSS\Finance\obj\Release\netstandard2.0\Finance.csproj.CoreCompileInputs.cache
+C:\Repository\AdvandedXamarin_RSS\Finance\obj\Release\netstandard2.0\XamlC.stamp
+C:\Repository\AdvandedXamarin_RSS\Finance\obj\Release\netstandard2.0\Finance.dll
+C:\Repository\AdvandedXamarin_RSS\Finance\obj\Release\netstandard2.0\refint\Finance.dll
+C:\Repository\AdvandedXamarin_RSS\Finance\obj\Release\netstandard2.0\Finance.pdb
+C:\Repository\AdvandedXamarin_RSS\Finance\obj\Release\netstandard2.0\ref\Finance.dll
