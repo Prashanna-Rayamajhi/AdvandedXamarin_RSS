@@ -1056,11 +1056,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\XamarinCourse\\Advanced\\Finance\\Finance\\Finance.iOS\\Finance.iOS.csproj",
+      "projectUniqueName": "C:\\Repository\\AdvandedXamarin_RSS\\Finance.iOS\\Finance.iOS.csproj",
       "projectName": "Finance.iOS",
-      "projectPath": "C:\\Temp\\XamarinCourse\\Advanced\\Finance\\Finance\\Finance.iOS\\Finance.iOS.csproj",
+      "projectPath": "C:\\Repository\\AdvandedXamarin_RSS\\Finance.iOS\\Finance.iOS.csproj",
       "packagesPath": "C:\\Users\\prash\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\XamarinCourse\\Advanced\\Finance\\Finance\\Finance.iOS\\obj\\",
+      "outputPath": "C:\\Repository\\AdvandedXamarin_RSS\\Finance.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1083,8 +1083,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Temp\\XamarinCourse\\Advanced\\Finance\\Finance\\Finance\\Finance.csproj": {
-              "projectPath": "C:\\Temp\\XamarinCourse\\Advanced\\Finance\\Finance\\Finance\\Finance.csproj"
+            "C:\\Repository\\AdvandedXamarin_RSS\\Finance\\Finance.csproj": {
+              "projectPath": "C:\\Repository\\AdvandedXamarin_RSS\\Finance\\Finance.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ywgfz16xqjQPEMugQKuZIUfgKE1obfAeegaVT9cTRpDIzgzYz+VZ/PPMoSbS6kAEYycl/TWE08zkrC0Ch8ip9Q==",
+  "dgSpecHash": "UBkjJC8VlUorWipmvuWqmq9ZIazkmO3krDQyXlOPtTWF80l+G0q3bqpZE1kQAcL+tSXjz7V+5UAUux2FxczZ4A==",
   "success": true,
-  "projectFilePath": "C:\\Temp\\XamarinCourse\\Advanced\\Finance\\Finance\\Finance.iOS\\Finance.iOS.csproj",
+  "projectFilePath": "C:\\Repository\\AdvandedXamarin_RSS\\Finance.iOS\\Finance.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prash\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\prash\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

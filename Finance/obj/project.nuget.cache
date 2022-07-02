@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NMYGLYjDK9kxTTYNDyBHb32WC8Ak52s4TMLA/Tw1NWIlTUWZ4Zp2POu90o2uN/lhtmZEMYpN+06Ty64IotdudQ==",
+  "dgSpecHash": "XLa0MOSWiPAmk/9z5gzPYQhn7u5qidBTACsppCWTkRrt1TRjJZRVlMhzrGZie1m9yyFh7lwxCdww+X0xSFIX6A==",
   "success": true,
-  "projectFilePath": "C:\\Temp\\XamarinCourse\\Advanced\\Finance\\Finance\\Finance\\Finance.csproj",
+  "projectFilePath": "C:\\Repository\\AdvandedXamarin_RSS\\Finance\\Finance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prash\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\prash\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
